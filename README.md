@@ -157,5 +157,3 @@ my_site/
 ```
 ## 📝 License
 This project is open-source and available under the MIT License.
-
-Would you like me to also **generate placeholder screenshot images** (just dummy PNGs with labels like "H
