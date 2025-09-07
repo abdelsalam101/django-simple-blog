@@ -34,42 +34,6 @@ It allows users to read posts, add comments, and save posts for later using sess
    ```bash
    git clone https://github.com/<your-username>/django-simple-blog.git
    cd django-simple-blog
-# Django Simple Blog
-
-A simple blog application built with **Django** and **Django Templates**.  
-It allows users to read posts, add comments, and save posts for later using sessions.
-
----
-
-## 🚀 Features
-- **Homepage**: shows the latest 3 posts.
-- **All Posts Page**: lists all posts ordered by newest first.
-- **Single Post Page**:
-  - View full blog post by slug.
-  - Displays tags.
-  - Shows comments (newest first).
-  - Add a new comment via form.
-  - Save/unsave a post for later.
-- **Read Later Page**:
-  - Uses Django sessions to store posts for later reading.
-  - Displays saved posts or a message if empty.
-
----
-
-## 🛠 Tech Stack
-- **Backend**: Django (Python)
-- **Database**: SQLite (default)
-- **Frontend**: Django Templates (HTML, CSS)
-- **Other**: Django Forms, Sessions
-
----
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/django-simple-blog.git
-   cd django-simple-blog
 2. **Create and activate a virtual environment**
    ```bash
    python -m venv venv
